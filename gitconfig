@@ -12,6 +12,9 @@
 [core]
   pager = less -FRSX
   editor = code --wait
+	compression = 0
+packedGitLimit = 512m
+packedGitWindowSize = 512m
 
 [alias]
   co = checkout
@@ -62,3 +65,10 @@
 [user]
 	email = karthikasanal20@gmail.com
 	name = karthika sanal
+[http]
+	postBuffer = 157286400
+
+[pack]
+deltaCacheSize = 2047m
+packSizeLimit = 2047m
+windowMemory = 2047m
